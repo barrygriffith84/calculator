@@ -1,7 +1,12 @@
 .calc-output {
     border: 1px solid black;
     width: 20vw;
-    height: 5vh;
+    height: 4vh;
     margin: 2vh;
     margin-left: 0px;
+    padding-left: 0.3vw;
+}
+
+button {
+    width: 3vw;
 }
