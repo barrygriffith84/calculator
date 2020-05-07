@@ -1,12 +1,73 @@
-.calc-output {
+.whole-calc {
     border: 1px solid black;
     width: 20vw;
-    height: 4vh;
+    height: 50vh;
+    background-color: whitesmoke;
+}
+
+.calc-output {
+    border: 1px solid black;
+    width: 18vw;
+    height: 4.5vh;
     margin: 2vh;
-    margin-left: 0px;
-    padding-left: 0.3vw;
+    display: flex;
+   overflow: scroll;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   background-color: white;
+}
+
+.buttons-div {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 41.5vh;
+}
+
+.section123{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0vw 2vh 0vw;
+}
+
+.section456 {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0vw 2vh 0vw;
+}
+
+.section789 {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0vw 2vh 0vw;
+}
+
+.section0 {
+        /* border: 1px solid blue; */
+        display: flex;
+        margin: 2vh 0vw 2vh 0vw;
+        padding-left: 3.5vw; 
+        
+}
+
+.section-equal {
+    /* border: 1px solid blue; */
+        display: flex;
+        justify-content: flex-end;
+        margin: 2vh 0.8vw 2vh 0vw;
 }
 
 button {
-    width: 3vw;
+    width: 4vw;
+    height: 4vh;
 }
+
+.calc-btn0 {
+    margin: 0vh 5.7vw 0vh 2vw
+}
+
+
+

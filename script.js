@@ -24,7 +24,7 @@
 
 
 //EventListener for every button accept "=".  Takes the value of the button pressed and puts it in the output div
-document.querySelector("#calculator").addEventListener("click", function(){
+document.querySelector("#buttons-div").addEventListener("click", function(){
     //checks for any button with an ID that starts with calc
     if ([event.target.id ^= "calc"]) {
         //grabs the value of the button pressed and throws it into the "#calc-output" div
